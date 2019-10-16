@@ -1,0 +1,86 @@
+*{
+    font-family: acumin-pro, sans-serif;
+font-weight: 700;
+font-style: normal;
+    }
+@media screen and (max-width: 600px) {
+.wrapper {
+    height: 100%;
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "b"
+        "w"
+        "e"
+        "s"
+        "t";
+}
+}
+.wrapper{
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns:6, 1fr;
+    grid-template-rows:25% auto auto auto auto;
+    grid-template-areas:
+    "b"
+    "w"
+    "e"
+    "s"
+    "t";
+    }
+
+    .box{
+        grid-area: b;
+        padding-top:0px;
+        margin-bottom:-30px;
+        padding-right:30px;
+        padding-left: 0px;
+    }
+    .work{
+        padding-top: 10px;
+        grid-area: w;
+        font-style:bold;
+    }
+    .education{
+        grid-area: e;
+    }
+    .title{
+        grid-area: t;
+        padding-left:2%;
+        margin-top:0px;
+        font-size:38px;
+
+    }
+    h1{
+        font-size:60px;
+        font-family: acumin-pro, sans-serif;
+    }
+    h2{
+        font-family:acumin-pro, sans-serif;
+        font-size: 28px;
+    }
+    h3{
+        font-size: 28px;
+        font-family:acumin-pro, sans-serif;
+        font-weight:lighter;
+    }
+    h3{
+        font-size: 28px;
+        font-family:acumin-pro, sans-serif;
+        font-weight:lighter;
+    }
+    hr{
+      height:3px;
+    }
+    h4{
+        font-style: italic;
+    }
+    .box{
+        background-color: darksalmon;
+    }
+    .skills{
+        grid-area: s;
+    }
+ 
