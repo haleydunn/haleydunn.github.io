@@ -1,0 +1,87 @@
+html, body {
+    margin: auto;
+    margin-top: 30px;
+} 
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 10% auto 10%;
+    margin: 0 auto;
+    height: 70vh;
+    border-radius: 0px;
+    
+    
+}
+body,h1 {
+    font-family: "Acumin-pro", sans-serif
+}
+h1 {
+    letter-spacing: 1px
+}
+
+.w3-row-padding img {
+    margin-bottom: 12px
+}
+
+nav {
+    grid-column: 1 / -1;
+    grid-row: 1/-1; 
+    z-index: 1; 
+    display:inline;
+    font-family: acumin-pro, sans-serif;
+    
+}
+a {
+    color: black;
+    text-decoration: none;
+  }
+li{
+    display:inline;
+    padding: 10px;
+}
+
+.main {
+    grid-column: 2 / -1;
+    grid-row: 2/-1;
+    z-index:2;
+    padding-left: 400px;
+    margin-top: -10px; 
+}
+
+img {
+    grid-column: 2 / -1;
+    width: 450px;
+    grid-row: 2/-1;
+    z-index:1;
+    margin-left: 45px; 
+    margin-top: 30px; 
+    position: absolute; 
+    transform: scale(.8);
+    padding: 25px;
+    
+}
+  
+img:hover {
+    filter: none;
+    z-index: 3;
+    position: absolute; 
+    transition: filter .5s ease-in-out;
+}
+
+h1 {
+    color: #608778;
+    font-size: 4em;
+    font-family: acumin-pro, sans-serif;
+    padding-right: 25;
+}
+
+
+p {
+    font-family: acumin-pro, sans-serif;
+    font-size: 25px; 
+    padding-right: 140px;
+    
+}
+
+ 

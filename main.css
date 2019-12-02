@@ -1,0 +1,70 @@
+*{
+    font-family: acumin-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    }
+@media screen and (max-width: 600px) {
+.wrapper {
+    height: 100%;
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns:1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "b"
+        "w"
+        "e"
+        "s"
+        "t";
+}
+}
+.wrapper{
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: 3, 1fr;
+    grid-template-rows:22% auto auto auto auto;
+    grid-template-areas:
+    "b"
+    "w"
+    "e"
+    "s"
+    "t";
+    }
+
+    .box{
+        grid-area: b;
+        padding-top:0px;
+        margin-bottom:-300px;
+        padding-right:30px;
+        padding-left: 0px;
+    }
+    
+    h1{
+        font-size:150px;
+        text-align: right;
+        color: #293530;
+        margin-right: 400px;
+        margin-top: -310px;
+        font-family: acumin-pro, sans-serif;
+    }
+    h3{
+        font-size: 90px;
+        margin-left: 300px;
+        font-family:acumin-pro, sans-serif;
+        font-weight:lighter;
+        text-align: right;
+        display: inline;
+    }
+    img{
+        width: 450px;
+        margin-top: -150px;
+        margin-bottom: -70px
+    }
+    body,h1 {
+        font-family: "Acumin-pro", sans-serif;
+        font-size: 90px;
+    }
+    
+    .w3-row-padding img {
+        margin-bottom: 12px
+    }
