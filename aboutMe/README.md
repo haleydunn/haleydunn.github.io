@@ -1,3 +1,1 @@
-I had some difficulties while making my resume. Before taking this course I had no previous experience with any sort of coding. When we started I had an easier time but as we added more things I got more confused. As time went on it got easier to understand where all the tags went and what they mean. I think I had an easier time with css than html and found css more interesting because it added style to my resume. 
 
-I think I was successful with coding my resume and I like the way it came out. I wish I had more experience going into this course so that this project was easier for me. After time it got easier to fix my mistakes.
