@@ -83,5 +83,13 @@ p {
     padding-right: 140px;
     
 }
-
+@media only screen and (max-width:900px){
+#haley{
+    margin: 0 auto;
+    width: 100%;
+}
+}
+#haley{
+    float: left;
+}
  

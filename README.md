@@ -1,0 +1,3 @@
+I struggled a lot with getting my code to work. At first I had a completely different layout and style but I found a layout online that I liked a lot. I think most of my site is successful but I struggled a lot with getting my resume page to link on GitHub. I enjoyed making my portfolio site even with the ups and downs. 
+
+Although there were many struggles I think I was overall successful in making my site work. I also had trouble making my aboutMe page responsive to mobile. If I had more time to work on my portfolio site I would add descriptions to my main page with my portfolio pieces.
